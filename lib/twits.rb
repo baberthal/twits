@@ -1,5 +1,9 @@
 require 'twits/version'
+require 'dotenv'
+
+Dotenv.load
 
 module Twits
-  # Your code goes here...
 end
+
+require 'twits/client'
